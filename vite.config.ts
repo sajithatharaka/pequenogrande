@@ -1,10 +1,5 @@
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-  vite: {
-    base: "/website-image-refresh/",
-  },
-  tanstackStart: {
-    server: { entry: "server" },
-  },
-});
+  base: '/pequenogrande/'
+})
